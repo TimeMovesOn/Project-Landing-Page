@@ -1,12 +1,29 @@
 body{
     display: flex;
     flex-direction: column;
+    background: #1f2937;
 }
 
 .header{
+    display: flex;
     flex-direction: row; 
-    margin-left: auto;
+    padding-bottom: 50px;
 }
+header{
+    font-size: 24px;
+    color: #f9faf8;
+    background: #1f2937;
+}
+.link{
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
 
 #boxedwater{
     width: auto;
