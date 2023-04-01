@@ -1,3 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    flex-direction: row; 
+    margin-left: auto;
+}
+
 #boxedwater{
     width: auto;
     height: 500px;
