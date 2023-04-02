@@ -60,14 +60,18 @@ button{
     border-color: #3882f6;
     border-radius: 4px;
 }
-
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 .middle{
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    margin-bottom: 80px;
 }
 .fourboxes{
     display: flex;
@@ -84,7 +88,24 @@ button{
 
 .middletwo{
     background: #e5e7eb ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+.quotes{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.Thor{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
 .bottom{
     background: white;
 }
