@@ -44,9 +44,6 @@ a{
     width: auto;
     height: 500px;
 }
-.imgcontainer{
-
-}
 .top{
     display: flex;
     flex-direction: column;
@@ -64,10 +61,27 @@ button{
     border-radius: 4px;
 }
 
-
 .middle{
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
+.fourboxes{
+    display: flex;
+    gap: 30px;
+}
+.boxedwater{
+    height: 100px;
+    width: 100px;
+}
+.fourboxestext{
+    display: flex;
+    flex-direction: column;
+}
+
 .middletwo{
     background: #e5e7eb ;
 }
