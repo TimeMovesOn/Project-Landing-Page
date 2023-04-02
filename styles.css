@@ -78,8 +78,8 @@ h2{
     gap: 30px;
 }
 .boxedwater{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 .fourboxestext{
     display: flex;
@@ -108,7 +108,27 @@ h2{
 
 .bottom{
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background: #3882f6;
+    color: white;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 6px;
 }
+.bottom button{
+    background: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+}
+
+
 footer{
     display: flex;
     flex-direction: row;
@@ -116,5 +136,6 @@ footer{
     color: white;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
