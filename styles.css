@@ -1,6 +1,8 @@
-body{
+html body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -36,6 +38,20 @@ a{
 
 .middle{
     background: white;
+}
+.middletwo{
+    background: #e5e7eb ;
+}
+.bottom{
+    background: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 #boxedwater{
